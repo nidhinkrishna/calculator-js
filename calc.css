@@ -13,8 +13,10 @@ body{
 .container{
     height: 450px;
     width: 350px;
-    border: solid;
+    border: 5px solid aqua;
     padding: 10px;
+    border-radius: 10px;
+    background:linear-gradient(to left,rgb(0, 0, 0),rgb(138, 49, 22));
 
 }
 input{
@@ -22,9 +24,10 @@ input{
     width: 92%;
     margin-left: 4%;
     margin-top: 30px;
+    border: solid aqua;
 }
-.buttons{
-    margin-top: 20px;
+#buttons{
+    margin-top: 30px;
 }
 button{
     margin: 10px;
@@ -33,5 +36,7 @@ button{
     font-size: 20px;
     margin-left: 23px;
     margin-top: 15px;
+    border: solid aqua;
+
     
 }
